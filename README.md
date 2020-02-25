@@ -2,7 +2,12 @@
 
 This is a simple demo of how to create a blindtest using Spotify and React.
 
-## Getting started
+## Demo
+
+https://clecrois.github.io/blindtest-spotify
+
+
+## Getting started (create yours)
 
 First, fork / clone the repository.
 
