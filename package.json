@@ -7,9 +7,10 @@
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
     "react-scripts": "^3.2.0",
-    "react-sound": "^0.8.0"
+    "react-sound": "^0.8.0",
+    "sweetalert": "^2.1.2"
   },
-  "homepage": "https://clement-escolano.github.io/blindtest-spotify",
+  "homepage": "https://clecrois.github.io/blindtest-spotify",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

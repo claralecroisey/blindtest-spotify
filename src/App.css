@@ -9,7 +9,6 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
   padding: 20px;
   color: white;
 }
@@ -34,4 +33,49 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.Form-label {
+  letter-spacing: 1.5px;
+}
+
+.Form-input {
+  margin: 0 24px;
+  min-width: 500px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 20px;
+  line-height: 1.2;
+  resize: none;
+  font-weight: normal;
+  outline: none;
+}
+
+.Form-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+}
+
+.Scores-container {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  background-color: #222326;
+  color: #FFF;
+
+  font-weight: 100;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.Score-label {
+  font-weight: bold;
+  font-size: 20px;
 }
