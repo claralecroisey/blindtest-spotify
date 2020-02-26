@@ -146,9 +146,9 @@ class App extends Component {
   renderContent() {
     switch (this.state.apiConnectionState) {
       case ApiConnectionState.NO_TOKEN_ENTERED:
-        return <div>Enter an Api token to start playing! 😊 (get one <a target="_blank" href="https://developer.spotify.com/console/get-current-user-saved-tracks/?market=&limit=&offset=">here</a>)</div>;
+        return <div className="App-info">Enter an Api token to start playing! 😊 (get one <a target="_blank" href="https://developer.spotify.com/console/get-current-user-saved-tracks/?market=&limit=&offset=">here</a>)</div>;
       case ApiConnectionState.INVALID_TOKEN:
-        return <div>Uh oh, seems like your token is invalid! 😕 Your token might have expired. Please generate one again!</div>;
+        return <div className="App-info">Uh oh, seems like your token is invalid! 😕 Your token might have expired. Please generate one again!</div>;
       case ApiConnectionState.VALID_TOKEN:
         return (
           <>
