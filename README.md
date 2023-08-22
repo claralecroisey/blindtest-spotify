@@ -4,7 +4,7 @@ This is a simple demo of how to create a blindtest using Spotify and React.
 
 ## Demo
 
-https://clecrois.github.io/blindtest-spotify
+https://claralecroisey.github.io/blindtest-spotify
 
 
 ## Getting started (create yours)
